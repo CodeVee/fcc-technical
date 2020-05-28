@@ -19,6 +19,16 @@ p {
     font-size: 1.5rem;
 }
 
+code {
+    display: block;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 1.5rem 30rem 1.5rem 1.5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+}
+
 .wrapper {
     max-width: 128rem;
     margin: 0 auto;
