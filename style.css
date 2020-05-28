@@ -32,11 +32,19 @@ p {
     font-size: 2.8rem;
 }
 
-.wrapper section ul {
+.wrapper section {
+    margin: 2rem 0;
+}
+
+.wrapper section article {
+    margin: 1.5rem;
+}
+
+.wrapper section article ul {
     margin-left: 3rem;
 }
 
-.wrapper section ul li {
+.wrapper section article ul li {
     margin-top: 1.5rem;
     margin-left: 2rem;
     font-size: 1.5rem;
