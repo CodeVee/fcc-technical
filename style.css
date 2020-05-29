@@ -100,3 +100,42 @@ code {
     padding: 2rem;
     grid-column: 2 ;
 }
+
+@media screen and (max-width: 768px) {
+    code {
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .wrapper section article ul {
+        margin-left: 1rem;
+    }
+    
+    .wrapper section article ul li {
+        margin-top: 1.2rem;
+        margin-left: 1.3rem;
+    }
+    
+    #navbar {
+        border: 2px solid rgba(0, 22, 22, 0.4);
+        position: relative;
+        width: 80%;
+        margin: 2rem auto;
+        height: auto;
+    }
+    
+    #navbar header {
+        margin: 1.5rem;
+    }
+    
+    #main-doc {
+        padding: 2rem;
+        grid-column: 1 ;
+    }
+}
