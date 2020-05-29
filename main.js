@@ -6,9 +6,9 @@ $('#navbar a').on('click', function(event) {
   
       $('html, body').animate(
         {
-          scrollTop: $(hash).offset().top - 150
+          scrollTop: $(hash).offset().top - 50
         },
-        800
+        1000
       );
     }
   });

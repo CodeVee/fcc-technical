@@ -35,7 +35,7 @@ code {
     color: #4d4e53;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3.8fr;
+    grid-template-columns: 1.3fr 3.8fr;
 }
 
 .wrapper header {
@@ -67,9 +67,36 @@ code {
 }
 
 #navbar {
-    
+    border-right: 2px solid rgba(0, 22, 22, 0.4);
+    border-left: 2px solid rgba(0, 22, 22, 0.4);
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+}
+
+#navbar header {
+    margin: 1.5rem;
+}
+
+#navbar ul {
+    list-style: none;
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar ul li {
+    padding: 1rem 2rem;
+    border-top: 1px solid #4d4e53;
+}
+
+#navbar ul li a {
+    color: #4d4e53;
+    font-size: 1.7rem;
 }
 
 #main-doc {
     padding: 2rem;
+    grid-column: 2 ;
 }
