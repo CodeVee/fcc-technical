@@ -60,6 +60,12 @@ code {
     font-size: 1.5rem;
 }
 
+.wrapper section article ul li a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
 #navbar {
     
 }
